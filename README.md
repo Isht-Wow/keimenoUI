@@ -5,12 +5,12 @@ A terminal-based Java library for building rich text UIs, featuring ANSI colors,
 ---
 
 📜 Version History
-	•	v1-alpha
-	•	🟢 Initial text UI core functionality implemented.
-	•	✨ Supports ANSI colors, bold/underline styles, and formatting toggles.
-	•	↔️ Text alignment: left, center, right formatting available.
-	•	🖼 Image to ASCII conversion added.
-	•	🛠 Usable for prototyping UI designs, experimenting with terminal visuals.
+	-	v1-alpha
+	-	🟢 Initial text UI core functionality implemented.
+	-	✨ Supports ANSI colors, bold/underline styles, and formatting toggles.
+	-	↔️ Text alignment: left, center, right formatting available.
+	-	🖼 Image to ASCII conversion added.
+	-	🛠 Usable for prototyping UI designs, experimenting with terminal visuals.
 
 ---
 
@@ -25,19 +25,19 @@ A terminal-based Java library for building rich text UIs, featuring ANSI colors,
 ⸻
 
 🔮 Future Roadmap
-	•	Expand text styling options (colors, gradients, backgrounds).
-	•	Add interactive menus, buttons, and headers/footers.
-	•	Improve image-to-ASCII conversion quality.
-	•	Provide helper utilities for spacing, tables, and layouts.
-	•	Enhance cross-platform ANSI support, including Windows terminal compatibility.
-	•	Create detailed documentation and example projects for easier adoption.
+	-	Expand text styling options (colors, gradients, backgrounds).
+	-	Add interactive menus, buttons, and headers/footers.
+	-	Improve image-to-ASCII conversion quality.
+	-	Provide helper utilities for spacing, tables, and layouts.
+	-	Enhance cross-platform ANSI support, including Windows terminal compatibility.
+	-	Create detailed documentation and example projects for easier adoption.
 
 ---
 
 📆 Versioning Convention
-	•	Repository creation: 23 December 2025
-	•	Versions follow semantic-inspired format: v[major]-[stage]
-	•	Example: v1-alpha
+	-	Repository creation: 23 December 2025
+	-	Versions follow semantic-inspired format: v[major]-[stage]
+	-	Example: v1-alpha
 	
 ---
 
