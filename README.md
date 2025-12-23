@@ -1,6 +1,7 @@
 # keimenoUI
 
 A terminal-based Java library for building rich text UIs, featuring ANSI colors, text alignment, toggles, and image-to-ASCII conversion. Designed for developers who want to create visually appealing console applications with minimal effort.
+
 ---
 
 📜 Version History
@@ -30,12 +31,14 @@ A terminal-based Java library for building rich text UIs, featuring ANSI colors,
 	•	Provide helper utilities for spacing, tables, and layouts.
 	•	Enhance cross-platform ANSI support, including Windows terminal compatibility.
 	•	Create detailed documentation and example projects for easier adoption.
+
 ---
 
 📆 Versioning Convention
 	•	Repository creation: 23 December 2025
 	•	Versions follow semantic-inspired format: v[major]-[stage]
 	•	Example: v1-alpha
+	
 ---
 
 📣 Contact & Support
