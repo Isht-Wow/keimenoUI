@@ -11,6 +11,7 @@ A terminal-based Java library for creating rich text-based UIs, featuring ANSI c
   - ↔️ Text alignment options: left, center, right.
   - 🖼 Added image-to-ASCII conversion.
   - 🛠 Usable for prototyping terminal UIs and experimenting with console visuals.
+
 - v1-stable
   - 🔧 Stabilized core formatting and alignment features.
   - ✅ Enhanced wrapping and padding logic.
@@ -18,13 +19,15 @@ A terminal-based Java library for creating rich text-based UIs, featuring ANSI c
   - 📦 Library packaged for easy integration in other projects.
 
 Usage: 
-  `
+
+  	`
 	import wow.ishit.version_keimenoUI.TUIHandler;
 	import wow.ishit.version_keimenoUI.TextFormatter;
 	iimport wow.ishit.version_keimenoUI..FormatterSettings;
 	import wow.ishit.version_keimenoUI.ImageFormatter;
 	import wow.ishit.version_keimenoUI.IOException;
 	`
+	
 ⸻
 
 ## 🛠 Project Details
