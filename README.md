@@ -12,17 +12,14 @@ A terminal-based Java library for creating rich text-based UIs, featuring ANSI c
   - 🖼 Added image-to-ASCII conversion.
   - 🛠 Usable for prototyping terminal UIs and experimenting with console visuals.
 
-To download the .jar file use this command: 
-	`wget https://github.com/Isht-Wow/keimenoUI/releases/download/alpha/v1-alpha-keimenoUI.jar`
-
 Usage: 
 	
-	import filename.TUIHandler;
-	import filename.TextFormatter;
-	import filename.FormatterSettings;
-	import filename.ImageFormatter;
-	import java.io.IOException;
-	
+	import wow.ishit.version_keimenoUI.TUIHandler;
+	import wow.ishit.version_keimenoUI.TextFormatter;
+	iimport wow.ishit.version_keimenoUI..FormatterSettings;
+	import wow.ishit.version_keimenoUI.ImageFormatter;
+	import wow.ishit.version_keimenoUI.IOException;
+	//version is a placeholder. Replace it with v1_alpha, etc
 	public class App {
 	    public static void main(String[] args) {
 	        // Reset UI buffer
