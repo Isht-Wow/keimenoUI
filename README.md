@@ -1,6 +1,6 @@
 ## KeimenoUI
 
-A terminal-based Java library for creating rich text-based UIs, featuring ANSI colors, text alignment, toggles, and image-to-ASCII conversion. Perfect for developers building visually appealing console applications quickly.
+A beginner-friendly library that makes building text-based interfaces easy and fun for hobbyists, game developers, and creative coders.
 
 ⸻
 
