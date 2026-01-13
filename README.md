@@ -5,18 +5,26 @@ A beginner-friendly library that makes building text-based interfaces easy and f
 ⸻
 
 ## 📜 Version History ##
-- v1-alpha
-  - 🟢 Initial release with core text UI functionality.
-  - ✨ Supports ANSI colors, bold/underline, and formatting toggles.
-  - ↔️ Text alignment options: left, center, right.
-  - 🖼 Added image-to-ASCII conversion.
-  - 🛠 Usable for prototyping terminal UIs and experimenting with console visuals.
+- Versions till v2-beta
+  - Initial release with core text UI functionality.
+  - Supports ANSI colors, bold/underline, and formatting toggles.
+  - Text alignment options: left, center, right.
+  - Added image-to-ASCII conversion.
+  - Inconsistent API. Many features may be irritating/buggy
+  - Usable for prototyping terminal UIs and experimenting with console visuals.
+  - Compatible with Java 11 and above.
 
-- v1-stable
-  - 🔧 Stabilized core formatting and alignment features.
-  - ✅ Enhanced wrapping and padding logic.
-  - 🖼 Improved image-to-ASCII integration with aspect ratio preservation.
-  - 📦 Library packaged for easy integration in other projects.
+- v2-stable
+  -	🔧 Introduced central, mutable, synchronized CoreState for all formatting, display, and audio operations.
+  -	 🖥 Added advanced formatting options: tables, list menus, and customizable headers.
+  -	 ⌨ Implemented Linux-only InputManager using /dev/tty for raw per-character input handling.
+  -	 🎨 Full ANSI color support for text, padding, borders, and ASCII rendering.
+  -	 🔄 Dynamic display rewrite with buffered output, line wrapping, and redraw control.
+  -	 🔊 Audio playback support integrated with CoreState for seamless sound handling.
+  -	 🖼 Image-to-ASCII display with aspect ratio preservation and color support.
+  -	 🎥 Video frame playback in ASCII format with frame rate control.
+  -	 📦 Exposed a strong, frozen API for stable integration into other projects.
+  -	 ☕ Support for Java 8 and above.
 
 Usage: 
 
@@ -33,7 +41,7 @@ Usage:
 ## 🛠 Project Details
 -	Written in plain Java.
 -	No build tools required (Maven, Gradle, or ANT optional).
--	Source Code is compatible with Java 11 and above; compiled and tested for Java 25.
+-	Source Code is compatible with Java 8 and above; compiled and tested for Java 25.
 -	Fully terminal-based, focusing on flexible text-based UI elements.
 -	Supports toggleable formatting, letting developers dynamically enable/disable styling.
 -	Includes ASCII conversion of images for creative terminal output.
