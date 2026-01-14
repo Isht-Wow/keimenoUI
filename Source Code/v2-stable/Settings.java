@@ -25,8 +25,15 @@ public class Settings<T extends Settings<T>> extends Setters<T> {
      * The {@code CoreState} instance that holds all internal state and configuration values.
      * This field is the source of all settings retrieved by this class.
      */
-    public CoreState coreState;
+    private CoreState coreState;
     
+    /**
+     * Returns the internal CoreState object.
+     * @return the CoreState object
+     */
+    public CoreState getCoreState(){
+        return coreState;
+    }
     /**
      * Constructs a new {@code Settings} instance with the specified core state.
      *

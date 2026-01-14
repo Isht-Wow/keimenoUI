@@ -9,7 +9,7 @@ public class basicVideoPlaying {
           .setWidth(100)
           .setContentColour(Colour.RED)
           .header("Demo Video Playing")
-          .coreState.flush();
+          .getCoreState.flush();
       
         core.delay(1000);
 
@@ -19,7 +19,7 @@ public class basicVideoPlaying {
         
         core.delay(1400);
         core.clearScreen();
-        formatter.header("THANKS FOR WATCHING").coreState.flush();
+        formatter.header("THANKS FOR WATCHING").getCoreState().flush();
 
     }
 }

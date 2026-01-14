@@ -46,7 +46,15 @@ public class Setters<T extends Setters<T>> {
      * padding, border, audio, and rendering options for downstream use.
      * </p>
      */
-    public CoreState coreState;
+    private CoreState coreState;
+
+    /**
+     * Returns the internal CoreState object.
+     * @return the CoreState object
+     */
+    public CoreState getCoreState(){
+        return coreState;
+    }
 
     /**
      * Constructs a new Setters instance with the given CoreState.
@@ -669,14 +677,5 @@ public class Setters<T extends Setters<T>> {
         }
         coreState.tableCornerPiece = cornerPiece;
         return (T) this;
-    }
-
-    /**
-     * Returns the current CoreState instance with all updated settings.
-     *
-     * @return the updated {@link CoreState} instance
-     */
-    public CoreState getUpdatedCoreState() {
-        return coreState;
     }
 }

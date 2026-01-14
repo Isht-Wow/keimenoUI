@@ -107,7 +107,15 @@ public class Formatter extends Settings<Formatter> {
      * and the output buffer for formatted content.
      * </p>
      */
-    public CoreState coreState;
+    private CoreState coreState;
+
+    /**
+     * Returns the internal CoreState object.
+     * @return the CoreState object
+     */
+    public CoreState getCoreState() {
+        return coreState;
+    }
 
     // ------------------ HEADER METHOD ------------------
     /**
