@@ -577,7 +577,7 @@ public class CoreState {
      * Otherwise, the text is returned unmodified.
      * </p>
      * @param text The text to colorize.
-     * @param colourCode The ANSI color code to apply (see {@link Colour}).
+     * @param colour The ANSI color code to apply (see {@link Colour}).
      * @return The colorized text if applicable; otherwise, the original text.
      * <b>Example:</b>
      * <pre>{@code

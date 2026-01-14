@@ -514,6 +514,7 @@ public class Formatter extends Settings<Formatter> {
      * an error message is appended to the buffer.
      * </p>
      * @param options the array of menu option strings; must not be {@code null}
+     * @param colours the array of colour options, must not be {@code null}
      * @return this {@code Formatter} instance for chainable calls
      */
     public Formatter listMenu(String[] options, Colour colours[]) {
