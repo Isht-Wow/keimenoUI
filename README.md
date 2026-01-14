@@ -34,7 +34,8 @@ Usage:
 
 Here are some cool implementations:
 - [Basic Menu with Selection](Examples/basicMenu.mov)
-  
+- [Basic Video Playing](Examples/basicVideoPlaying.mov)
+
 ⸻
 
 ## 🛠 Project Details
