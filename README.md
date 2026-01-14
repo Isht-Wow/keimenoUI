@@ -29,15 +29,12 @@ A beginner-friendly library that makes building text-based interfaces easy and f
 Usage: 
 
   	`
-	import wow.ishit.version_keimenoUI.TUIHandler;
-	import wow.ishit.version_keimenoUI.TextFormatter;
-	iimport wow.ishit.version_keimenoUI..FormatterSettings;
-	import wow.ishit.version_keimenoUI.ImageFormatter;
-	import wow.ishit.version_keimenoUI.IOException;
+	import wow.ishit.version_keimenoUI.*;
 	`
 
 Here are some cool implementations:
-	- [Basic Menu with Selection](Examples/basicMenu.mov)
+- [Basic Menu with Selection](Examples/basicMenu.mov)
+  
 ⸻
 
 ## 🛠 Project Details
