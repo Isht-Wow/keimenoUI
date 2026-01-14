@@ -1,4 +1,4 @@
-## KeimenoUI
+## keimenoUI
 
 A beginner-friendly library that makes building text-based interfaces easy and fun for hobbyists, game developers, and creative coders.
 
@@ -35,7 +35,9 @@ Usage:
 	import wow.ishit.version_keimenoUI.ImageFormatter;
 	import wow.ishit.version_keimenoUI.IOException;
 	`
-	
+
+Here are some cool implementations:
+	- [Basic Menu with Selection](Examples/basicMenu.mov)
 ⸻
 
 ## 🛠 Project Details
