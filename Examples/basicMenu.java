@@ -1,15 +1,14 @@
 public class basicMenu {
   
     public void basicSelectionMenu() {
-        CoreState core = new CoreState();
-        Formatter f = new Formatter(core);
-        core.clearScreen();
+        Renderer<?> renderer = new Renderer();
+        renderer.coreState.clearScreen();
 
         // Interactive menu controlled by keys
         String[] options = { "1. Explore", "2. Learn", "3. Exit" };
-        core.clearScreen();
-        f.listMenu(options);
-        core.flush();
+        renderer.coreState.clearScreen();
+        renderer.listMenu(options);
+        renderer.coreState.flush();
 
         Key key = null;
         int selectedOption = 0;
@@ -18,8 +17,8 @@ public class basicMenu {
             key = singleKeyPress();
             selectedOption = logic(key, selectedOption, options.length);
             Colour[] colours = getColours(selectedOption, options);
-            f.listMenu(options, colours);
-            core.rewritingFlush();
+            renderer.listMenu(options, colours);
+            renderer.coreState.rewritingFlush();
         }
 
         switch(selectedOption){

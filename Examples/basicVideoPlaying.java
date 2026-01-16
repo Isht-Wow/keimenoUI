@@ -1,25 +1,24 @@
 public class basicVideoPlaying {
     public void Demo() {
-        CoreState core = new CoreState();
-        AsciiArt asciiArt = new AsciiArt(core);
-        Formatter formatter = new Formatter(core);
-      
-        core.clearScreen();
-        formatter
+        Renderer<?> renderer = new Renderer();
+        renderer.coreState.clearScreen();
+        renderer
           .setWidth(100)
           .setContentColour(Colour.RED)
           .header("Demo Video Playing")
-          .getCoreState.flush();
-      
-        core.delay(1000);
+          .getCoreState().flush();
 
-        asciiArt.enableAudio(true)
+        renderer.coreState.delay(1000);
+
+        renderer.enableAudio(true)
                 .setImageAspectRatio(1.0)
-                .playFrames("Animations/Aura/", formatter.getWidth());
-        
-        core.delay(1400);
-        core.clearScreen();
-        formatter.header("THANKS FOR WATCHING").getCoreState().flush();
+                .playFrames("Animations/Aura/", renderer.getWidth());
+
+        renderer.coreState
+            .delay(1400)
+            .clearScreen();
+
+        renderer.header("THANKS FOR WATCHING").flush();
 
     }
 }
